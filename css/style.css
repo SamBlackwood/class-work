@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin: 0%;
+    width: 100%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header{
+    background-color: #000;
+    height: 10vh;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 0%;
+}
+header ul li i{
+    color: #fff;
+    font-size: 33px;
+}
+header ul li h4{
+    color: #fff;
+    margin: 0%;
+}
+header ul li p{
+    color: gray;
+    margin: 0%;
+    font-size: 15px;
+}
+header ul li p span{
+    padding: 1px 5px;
+    background-color: rgb(98, 133, 145);
+}
+header ul li p span a{
+    text-decoration: none;
+    color: #fff;
+}
+header ol{
+    list-style: none;
+    padding-top: 10px;
+    display: inline-flex;
+}
+header ol li{
+    margin: 0px 5px;
+}
+header ol li a{
+    text-decoration: none;
+}
+header ol .link_1 a{
+    color: gray;
+    padding: 7px 10px;
+    border: 2px solid gray;
+}
+header ol .link_1 a:hover{
+    background-color: rgb(170, 170, 170);
+}
+header ol .link_2 a{
+    color: #fff;
+    background-color: gray;
+    padding: 7px 8px;
+    border: 2px solid gray;
+}
+header ol .link_3 a{
+    color: #000;
+    background-color: rgb(0, 189, 0);
+    border: 2px solid rgb(0, 189, 0);
+    padding: 7px 8px;
+}
+header ol .link_4 a{
+    background-color: rgb(100, 100, 100);
+    color: #fff;
+    padding: 7px 8px;
+    border: 2px solid rgb(100, 100, 100);
+}
+
+/* main */
+main{
+    background-color: green;
+    height: 77.3vh;
+    padding: 50px 60px;
+}
+.start1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.start1 .rt_side h1{
+    margin: 0%;
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+}
+.start1 .lt_side{
+    color: #fff;
+    direction: rtl;
+}
+.start1 .lt_side .big{
+    font-size: 20px;
+}
+
+/* card_inner */
+.card_inner{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card_inner div a i{
+    color: #fff;
+    font-size: 50px;
+}
+.card_inner div{
+    width: 100%;
+    height: 100px;
+    margin: 5px 5px;
+    text-align: center;
+}
+.card_1{
+    background-color: blue; 
+    flex: 2;
+}
+.card_2{
+    background-color: orange; 
+    height: 20px;
+    flex: 2;
+}
+.card_3{
+    background-color: red; 
+    height: 20px;
+    flex: 1;
+}
+.card_4{
+    background-color: blue; 
+    height: 20px;
+    flex: 1;
+}
+.card_5{
+    background-color: lightblue;
+    height: 20px;
+    flex: 1;
+}
+.card_6{
+    background-color: lightgreen;
+    height: 20px;
+    flex: 1;
+}
+.card_7{
+    background-color: lightblue;
+    flex: 1;
+}
+.card_8{
+    background-color: rgb(255, 230, 0);
+    flex: 1;
+}
+.card_9{
+    flex: 2;
+    background: url("https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg") center / cover;
+}
+.card_9 p{
+    margin-top: 70px;
+}
+.card_10{
+    background-color: red;
+    flex: 1;
+}
+.card_11{
+    background-color: crimson;
+    flex: 1;
+}
+.card_12{
+    flex: 1;
+    background-color: crimson;
+}
+.card_13{
+    background-color: orange;
+    flex: 1;
+}
+.card_14{
+    background-color: blue;
+    flex: 2;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.link_0 .fa-address-card{
+    font-size: 15px;
+}
+.date{
+    display: inline-flex;
+}
+.card_15{
+    background-color: lightgreen;
+    flex: 1;
+}
+.card_16{
+    background-color: rgb(255, 230, 0);
+    flex: 2;
+}
+.card_inner div p a{
+    text-decoration: none;
+    color: #fff;    
+}
+.card_1, .card_2, .card_3, .card_4, .card_5, .card_6, .card_7, .card_8, .card_9, .card_10, .card_11, .card_12, .card_13, .card_15, .card_16{
+    padding-top: 30px;
+}
+.card p a{
+    font-size: 15px;
+}
+.card:hover{
+    transform: scale(1,1);
+}
+
+@media screen and (max-width: 929px){
+
+    .text p{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 740px){
+
+    .card_inner div a i{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 570px){
+
+    .link{
+        font-size: 10px;
+    }
+    .card_inner{
+        flex-direction: column;
+    }
+    main{
+        height: auto;
+    }
+
+}   
+
+@media screen and (max-width: 484px){
+
+    .link{
+        padding: 0%;
+        font-size: 7px;
+    }
+
+}
+
+@media screen and (max-width: 441px){
+
+    .link{
+        padding: 0%;
+        font-size: 6px;
+    }
+    header ul li h4{
+        font-size: 10px;
+    }
+    header ul li p{
+        font-size: 10px;
+    }
+    header ul li i{
+        font-size: 20px;
+    }
+
+}
